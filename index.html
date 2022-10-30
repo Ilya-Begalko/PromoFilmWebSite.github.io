@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Batman - MoviePages</title>
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display:700&display=swap&subset=cyrillic"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,900&display=swap&subset=cyrillic" rel="stylesheet">
+    <link rel="stylesheet" href="./css/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="css\animate.css">
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <div class="logo">MoviePages</div>
+
+            <form action="" class="search">
+                <input type="text" class="search-input" placeholder="Movies, series, actors">
+                <button type="submit" class="search-button">
+                    <img src="assets/search-icon.svg" alt="search-icon">
+                </button>
+            </form>
+            <div class="user">
+                <img src="assets/bookmark.svg" alt="bookmark" class="bookmark">
+                <img src="assets/avatar.png" alt="avatar" class="avatar">
+            </div>
+        </header>
+        <main class="main">
+            <h1 class="title animated fadeInRight">The Batman</h1>
+            <small class="title-en animated fadeInRight">Matt Reeves</small>
+            <div class="info">
+                <div class="movie-info animated fadeInUp delay-1s">
+                    <span class="tag">Movie</span>
+                    <span class="country">USA, 2022</span>
+                    <a data-fancybox href="https://www.youtube.com/watch?v=tZeMfF45Gmc&ab_channel=WBRussia"
+                        class="play">Watch Trailer</a>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="short-info">
+                    <img src="assets/poster.jpg" alt="poster" class="poster">
+                    <button class="button">Will Watch</button>
+                    <h3 class="actors-title">Starring:</h3>
+                    <ul class="actors-list">
+                        <li class="actors-list-item">Robert Pattison</li>
+                        <li class="actors-list-item">Zoe Kravitz</li>
+                        <li class="actors-list-item">Peter Sarsgaard</li>
+                        <li class="actors-list-item">Paul Dano</li>
+                        <li class="actors-list-item">Andy Serkis</li>
+                        <li class="actors-list-item">Geoffrey Wright</li>
+                    </ul>
+                </div>
+                <div class="full-info">
+                    <nav class="tabs">
+                        <a href="#about" class="tabs-item tabs-item-active">About</a>
+                        <a href="#reviews" class="tabs-item">Reviews</a>
+                        <a href="#premieres" class="tabs-item">Premieres</a>
+                        <a href="#actors" class="tabs-item">Actors</a>
+                        <a href="#awards" class="tabs-item">Awards</a>
+                        <a href="#facts" class="tabs-item">Facts</a>
+                        <a href="#sites" class="tabs-item">Sites</a>
+                        <a href="#" class="tabs-item">
+                            <img src="./assets/bookmark-icon.svg" alt="bookmark" class="bookmark-added">
+                        </a>
+                    </nav>
+
+                    <div class="full-content">
+                        <div class="tabs-content visible" id="about">
+                            <p class="text">After two years of searching for justice on the streets of Gotham, Batman
+                                becomes for the townspeople the personification of merciless retribution. When a series
+                                of violent attacks on high-ranking officials take place in the city, clues lead Bruce
+                                Wayne to the darkest corners of the underworld, where he meets Catwoman, the Penguin,
+                                Carmine Falcone, and the Riddler. Now under the gun is Batman himself, who will have to
+                                distinguish friend from foe and restore justice in the name of Gotham.</p>
+                        </div>
+                        <div class="tabs-content" id="reviews">
+                            <p class="text">Soon...</p>
+                        </div>
+                        <div class="tabs-content" id="premieres">
+                            <p class="text">Soon...</p>
+                        </div>
+                        <div class="tabs-content" id="actors">
+                            <p class="text">Soon...</p>
+                        </div>
+                        <div class="tabs-content" id="awards">
+                            <p class="text">Soon...</p>
+                        </div>
+                        <div class="tabs-content" id="facts">
+                            <p class="text">Soon...</p>
+                        </div>
+                        <div class="tabs-content" id="sites">
+                            <p class="text">Soon...</p>
+                        </div>
+                        <div class="subscribe">
+                            <h3 class="subscribe-title">Subscribe to updates</h3>
+                            <form action="#" class="subscribe-form">
+                                <input type="text" class="subscribe-input" placeholder="Your Email">
+                                <button class="subscribe-button">
+                                    <img src="./assets/button-check.svg" alt="check">
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+        </main>
+
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <!-- Fancybox -->
+    <script src="js/jquery.fancybox.min.js"></script>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
